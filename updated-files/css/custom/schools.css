@@ -1,0 +1,113 @@
+.school-body{
+	padding: 120px 0;
+}
+.school-hero{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+	margin: 20px 0
+}
+.schools-location{
+	padding: 50px 0;
+	background: #07a889;
+	box-sizing: border-box;
+	color: #fff;
+}
+.schools-location h2, .schools-location h4{
+	color: #fff
+}
+body img{
+	border-radius: 20px;
+	box-shadow: 0 30px 55px -20px rgba(0, 0, 0, 0.3);
+	transition: ease-in-out 0.2s;
+}
+body img:hover{
+	box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.list-map{
+	display: flex;
+}
+.schools-stats{
+	margin: 50px 0;
+}
+
+.schools-stats img{
+	box-shadow: none;
+	width: 100%;
+}
+.schools-stats img:hover{
+	box-shadow: none;
+}
+.stats-icon{
+		box-shadow: 0 30px 45px -05px rgba(0, 0, 0, 0.3);
+		margin-right: 20px; 
+}
+.icon-heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.schools-location{
+	padding: 150px 0;
+}
+
+.school-hero .img-hero{
+	box-shadow: none;
+	width: 100%;
+}
+.school-hero .img-hero:hover{
+	box-shadow: none;
+}
+
+.school-hero{
+	margin-top: 50px;
+	margin-bottom: 100px; 
+}
+.schools-maps{
+	margin: 100px 0;
+}
+
+.schools-cell-phone{
+	background: #fafafa;
+}
+
+@media only screen and (max-width: 600px){
+	.school-hero{
+		flex-direction: column-reverse;
+		margin: 20px;
+	}
+	.school-hero img{
+		width: 80%;
+		margin: auto;
+	}
+	section{
+		overflow: hidden;
+	}
+	.img-center{
+		text-align: center;
+		margin-top: 30px
+	}
+	.schools-location{
+		padding: 30px 0;
+	}
+	.schools-cell-phone>div{
+		flex-direction: column !important;
+		padding: 30px 0;
+	}
+	.schools-stats img{ width: 100%; }
+	.schools-maps>div{
+				flex-direction: column-reverse !important;
+		padding: 30px 0;
+	}
+	.icon-heading{
+		flex-direction: column;
+	}
+	.zero-padding{padding: 0 !important;}
+	.margin-20{margin: 20px;}
+	.list-map{
+		flex-direction: column;
+	}
+}

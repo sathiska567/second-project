@@ -1,0 +1,33 @@
+[18-Aug-2023 06:10:20 America/Boise] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php:3217
+Stack trace:
+#0 /home4/instaod4/public_html/freegovservices/php/application.php(81): PHPMailer\PHPMailer\PHPMailer->addAttachment('', '')
+#1 {main}
+  thrown in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php on line 3217
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Undefined array key "id-file" in /home4/instaod4/public_html/freegovservices/php/application.php on line 21
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/instaod4/public_html/freegovservices/php/application.php on line 21
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Undefined array key "id-file" in /home4/instaod4/public_html/freegovservices/php/application.php on line 22
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/instaod4/public_html/freegovservices/php/application.php on line 22
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Undefined array key "benefit-file" in /home4/instaod4/public_html/freegovservices/php/application.php on line 23
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/instaod4/public_html/freegovservices/php/application.php on line 23
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Undefined array key "benefit-file" in /home4/instaod4/public_html/freegovservices/php/application.php on line 24
+[18-Aug-2023 12:13:43 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/instaod4/public_html/freegovservices/php/application.php on line 24
+[18-Aug-2023 12:13:43 America/Boise] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php:3217
+Stack trace:
+#0 /home4/instaod4/public_html/freegovservices/php/application.php(81): PHPMailer\PHPMailer\PHPMailer->addAttachment(NULL, NULL)
+#1 {main}
+  thrown in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php on line 3217
+[19-Aug-2023 12:08:13 America/Boise] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php:3217
+Stack trace:
+#0 /home4/instaod4/public_html/freegovservices/php/application.php(81): PHPMailer\PHPMailer\PHPMailer->addAttachment('', '')
+#1 {main}
+  thrown in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php on line 3217
+[31-Aug-2023 13:38:43 America/Boise] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php:3217
+Stack trace:
+#0 /home4/instaod4/public_html/freegovservices/php/application.php(81): PHPMailer\PHPMailer\PHPMailer->addAttachment('', '')
+#1 {main}
+  thrown in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php on line 3217
+[07-Sep-2023 16:48:38 America/Boise] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php:3217
+Stack trace:
+#0 /home4/instaod4/public_html/freegovservices/php/application.php(81): PHPMailer\PHPMailer\PHPMailer->addAttachment('', '')
+#1 {main}
+  thrown in /home4/instaod4/public_html/freegovservices/php/PHPMailer/PHPMailer.php on line 3217

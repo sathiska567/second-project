@@ -1,0 +1,700 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FREEGOVSERVICES</title>
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon"
+          href="./images/partners/usa.jpg"
+          type="image/x-icon" />
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/vendor/bootstrap-theme.min.css" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom/schools.css" />
+    <style>
+        body {
+            line-height: 1.5;
+        }
+
+        p.MsoNormal, li.MsoNormal, div.MsoNormal {
+            margin-top: 0in;
+            margin-right: 0in;
+            margin-bottom: 8.0pt;
+            margin-left: 0in;
+            font-size: 11.0pt;
+        }
+
+        a:link, span.MsoHyperlink {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .MsoPapDefault {
+            margin-bottom: 8.0pt;
+        }
+
+        @page WordSection1 {
+            size: 8.5in 11.0in;
+            margin: 70.85pt 85.05pt 70.85pt 85.05pt;
+        }
+
+        /* List Definitions */
+        ol {
+            margin-bottom: 0in;
+        }
+
+        ul {
+            margin-bottom: 0in;
+        }
+
+        .wscroll{
+            padding: 20px 5px !important;
+        }
+    </style>
+</head>
+
+<body lang="EN-US"
+      link="blue"
+      vlink="#954F72"
+      style="word-wrap: break-word">
+    <!--================================= NAVIGATION START ==========================================-->
+    <header>
+        <nav class="topbar navbar navbar-default navbar-fixed-top clearfix"
+             id="top-nav">
+            <div class="container">
+                <div class="logo-image">
+                    <h4 class="logo">
+                        <a href="/" style="color: inherit">
+                            FREEG
+                            <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json"
+                                       trigger="loop"
+                                       colors="primary:#08a88a,secondary:#121331"
+                                       state="loop">
+                            </lord-icon>
+                            VSERVICES.COM
+                        </a>
+                    </h4>
+                </div>
+                <div class="navbar-right nav">
+                    <div class="navbar-header">
+                        <button type="button"
+                                class="navbar-toggle collapsed"
+                                data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse"
+                         id="bs-example-navbar-collapse-1">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="menu_1">
+                                <li class="menu">
+                                    <a href="./index.html"
+                                       class="pagescroll">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="./index.html#services"
+                                       class="pagescroll">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="./index.html#testimonial"
+                                       class="pagescroll">
+                                        Testimonial
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="./index.html#news"
+                                       class="pagescroll">
+                                        News
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="./index.html#contact"
+                                       class="pagescroll">
+                                        Contact
+                                    </a>
+                                </li>
+
+
+                                <li class="menu">
+                                    <a href="schools.html"
+                                       class="wscroll">
+                                        Schools
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="charity.html"
+                                       class="wscroll">
+                                        Charity
+                                    </a>
+                                </li>
+
+                                <li class="menu" style="display: flex;
+justify-content: center; align-items: center;">
+                                    <div>
+                                        <lord-icon src="https://cdn.lordicon.com/wcvomxqn.json"
+                                                   trigger="loop"
+                                                   delay="2000"
+                                                   colors="primary:#121331,secondary:#08a88a"
+                                                   style="
+    width: 35px;
+    height: 35px;
+    ">
+                                        </lord-icon>
+                                    </div>
+                                    <div id="google_translate_element"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+    <!--================================= NAVIGATION END ==========================================-->
+
+    <section class="school-hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col img-center">
+                    <img src="images/schools/hero.png" class="img-hero">
+                    <h1 style="text-align: center;">Let’s Get All Kids Connected!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="schools-cell-phone">
+        <div class="container school-body">
+            <div class="row school-hero">
+                <div class="col-6 zero-padding" style="padding-right: 30px;">
+                    <h2>Cell Phones/Tablets & Service</h2>
+                    <p>
+                        The average household paying for cell phones and cell phone service in America may depend on several factors, such as the number of lines, the type of plan, the carrier, the device, and the usage. According to some web search results, the average monthly cost of a cell phone plan is $1441, which means the average annual cost is $1,728. However, this may vary depending on the plan and provider you choose. Some carriers may offer cheaper or more expensive plans, and some may have discounts or promotions for new customers or existing ones. You may also want to consider the cost of your cell phone device, which can range from a few hundred to over a thousand dollars depending on the model and features. The average selling price of a smartphone worldwide in 2019 was $214.72, but this may differ by region and brand.
+                    </p>
+                    <h4 style="margin-top: 30px; margin-bottom: 10px; ">Learn more:</h4>
+                    <ul>
+                        <li>allconnect.com</li>
+                        <li>statista.com</li>
+                        <li>reviews.org</li>
+                        <li>statista.com</li>
+                        <li>moneysavingpro.com</li>
+                    </ul>
+                </div>
+                <div class="col-6 img-center">
+                    <img src="images/schools/tablets.jpg" width="500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="schools-location">
+        <div class="container">
+            <div class="row school-hero">
+                <div class="col-6 img-center">
+                    <img src="images/schools/tablets.jpg" width="500">
+                </div>
+                <div class="col-6 zero-padding" style="padding-left: 30px;">
+                    <div class="icon-heading">
+                        <span>
+                            <lord-icon class="stats-icon"
+                                       src="https://cdn.lordicon.com/wvuweuyy.json"
+                                       trigger="loop"
+                                       delay="2000"
+                                       colors="primary:#121331,secondary:#08a88a"
+                                       style="width:100px;height:100px; background: #fff; border-radius: 10px;">
+                            </lord-icon>
+                        </span>
+                        <h2>SAFE School-Age Family Exemptions</h2>
+                    </div>
+                    <p>
+                        To School Administrators: Simply offer our program to all of the Kids and their Families! One less worry for them…<br><br>
+
+                        The Affordable Connectivity Program (ACP) is a new program that can help school-age families save money on their internet and device costs. The program provides a monthly discount (many times free) for eligible households to pay for their internet service. The program also offers a one-time discount for eligible households to buy a laptop, desktop computer, or tablet from participating providers. The program is limited to one internet discount and one device discount per household.<br>
+                        The ACP can help school-age families by making internet access more affordable and accessible. With the internet, students can do their homework, attend online classes, access educational resources, and communicate with their teachers and classmates. Having a device can also help students improve their digital skills and literacy, which are important for the future. The ACP can also help families use the money they save for other needs, such as rent, food, utilities, health care, or education. The ACP is a long-term program that aims to help ensure we can afford the internet connections we need for work, school, health care and more.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="schools-stats">
+        <div class="container">
+            <div class="row school-hero">
+                <div class="col img-center"><img src="images/schools/stats.png"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="schools-maps">
+        <div class="container">
+            <div class="row school-hero zero-padding">
+                <div class="col zero-padding" style="padding-right: 20px; ">
+                    <div class="icon-heading margin-20">
+                        <span>
+                            <lord-icon src="https://cdn.lordicon.com/zzcjjxew.json"
+                                       trigger="loop"
+                                       delay="2000"
+                                       colors="primary:#121331,secondary:#08a88a"
+                                       style="width:250px;height:250px">
+                            </lord-icon>
+                        </span>
+                        <h2>Example School District</h2>
+                    </div>
+                    <div class="list-map">
+                        <ul>
+                            <li>El Paso Texas & the Surrounding Area</li>
+                            <li>Ysleta Independent School District: 37,244</li>
+                            <li>Socorro Independent School District: 47,278</li>
+                            <li>Canutillo Independent School District: 6,114</li>
+                        </ul>
+                        <ul>
+                            <li>Las Cruces Public Schools: 24,041 students2</li>
+                            <li>Clint Independent School District: 12,148</li>
+                            <li>Tornillo Independent School District: 1,142</li>
+                            <li>El Paso Independent School District: 50,661</li>
+                        </ul>
+                        <ul>
+                            <li>Anthony Independent School District: 1,008</li>
+                            <li>Fabens Independent School District: 2,325</li>
+                            <li>San Elizario Independent School District: 3,881</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-6 img-center">
+                        <img src="images/schools/map.png" width="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--================================= FOOTER-1 START ==========================================-->
+    <div class="footer-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 footer-col">
+                    <div class="footer-logo">
+                        <h4 class="logo">
+                            <a href="/">
+                                FREEG
+                                <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json"
+                                           trigger="loop"
+                                           colors="primary:#08a88a,secondary:#121331"
+                                           state="loop">
+                                </lord-icon>
+                                VSERVICES.COM
+                            </a>
+                        </h4>
+                    </div>
+                    <h4>About Us</h4>
+                    <h6>Internet Cell Health Utilities</h6>
+                    <br />
+                    <div>
+                        <div style="margin-bottom: 10px">
+                            <lord-icon src="https://cdn.lordicon.com/ufezupnm.json"
+                                       trigger="loop"
+                                       delay="2000"
+                                       colors="primary:#121331,secondary:#08a88a"
+                                       style="width: 50px; height: 50px">
+                            </lord-icon>
+                            <h5>Signup</h5>
+                        </div>
+                        <div style="margin-bottom: 10px">
+                            <lord-icon src="https://cdn.lordicon.com/flqcnwch.json"
+                                       trigger="loop"
+                                       delay="2000"
+                                       colors="primary:#121331,secondary:#08a88a"
+                                       style="width: 50px; height: 50px">
+                            </lord-icon>
+                            <h5>Refer Customers</h5>
+                        </div>
+                        <div style="margin-bottom: 10px">
+                            <lord-icon src="https://cdn.lordicon.com/muxtceur.json"
+                                       trigger="loop"
+                                       delay="2000"
+                                       colors="primary:#121331,secondary:#08a88a"
+                                       style="width: 50px; height: 50px">
+                            </lord-icon>
+                            <h5>Make Money</h5>
+                        </div>
+                        <br />
+                        <button class="btn btn-1 affiliate-btn">
+                            Become an Affiliate
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <br />
+                    <div class="contact-div">
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li>
+                                <lord-icon src="https://cdn.lordicon.com/eqbqgqho.json"
+                                           trigger="loop"
+                                           colors="primary:#121331,secondary:#08a88a"
+                                           style="width: 40px; height: 40px">
+                                </lord-icon>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="mailto:service@freegovservices.com">service@freegovservices.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li>
+                                <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json"
+                                           trigger="loop"
+                                           colors="primary:#08a88a,secondary:#121331"
+                                           state="loop"
+                                           style="width: 40px; height: 40px">
+                                </lord-icon>
+                            </li>
+                            <li>
+                                <p>Global</p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li>
+                                <lord-icon src="https://cdn.lordicon.com/lzrxyngt.json"
+                                           trigger="loop"
+                                           colors="primary:#121331,secondary:#08a88a"
+                                           style="width: 40px; height: 40px">
+                                </lord-icon>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="https://freegovservices.com">freegovservices.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li>
+                                <lord-icon src="https://cdn.lordicon.com/ltxkhbfa.json"
+                                           trigger="loop"
+                                           colors="primary:#08a88a,secondary:#121331"
+                                           style="width: 40px; height: 40px">
+                                </lord-icon>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="tel:8777373346">877-7FREEGOV (877-737-3346)</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address">
+                            <li>
+                                <lord-icon src="https://cdn.lordicon.com/ltxkhbfa.json"
+                                           trigger="loop"
+                                           colors="primary:#08a88a,secondary:#121331"
+                                           style="width: 40px; height: 40px">
+                                </lord-icon>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="tel:9403733468"
+                                       target="_blank"
+                                       rel="noopener noreferrer">940-FREEGOV (940-373-3468)</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address"
+                            style="margin: 0.5rem 0">
+                            <li>
+                                <a href="whatsapp://send?phone=584263070053"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 48 48"
+                                         width="96"
+                                         height="96"
+                                         style="width: 35px; height: 40px">
+                                        <path fill="#fff"
+                                              d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z" />
+                                        <path fill="#fff"
+                                              d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z" />
+                                        <path fill="#cfd8dc"
+                                              d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z" />
+                                        <path fill="#40c351"
+                                              d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z" />
+                                        <path fill="#fff"
+                                              fill-rule="evenodd"
+                                              d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                                              clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="whatsapp://send?phone=584263070053">Whatsapp</a>
+                                </p>
+                            </li>
+                        </ul>
+
+                        <ul class="content-ul contact-address">
+                            <li>
+                                <a href="https://uk.linkedin.com/in/john-gaetano-37205818"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   style="display: flex">
+                                    <lord-icon src="https://cdn.lordicon.com/oddigoor.json"
+                                               trigger="loop"
+                                               delay="2000"
+                                               colors="primary:#121331,secondary:#08a88a"
+                                               style="width: 50px; height: 50px">
+                                    </lord-icon>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 48 48"
+                                         width="96"
+                                         height="96"
+                                         style="
+    width: 35px;
+    height: 40px;
+    transform: translateY(5px);
+    ">
+                                        <path fill="#07A889"
+                                              d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z" />
+                                        <path fill="#fff"
+                                              d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="https://uk.linkedin.com/in/john-gaetano-37205818"
+                                       target="_blank"
+                                       rel="noopener noreferrer">LinkedIn</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="content-ul footer1-icon">
+                        <li>
+                            <a href="#">
+                                <img src="./images/icons/40x40x1.png"
+                                     alt="40x40x1" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/icons/40x40x2.png"
+                                     alt="40x40x2" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/icons/40x40x3.png"
+                                     alt="40x40x3" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/icons/40x40x4.png"
+                                     alt="40x40x4" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/icons/40x40x5.png"
+                                     alt="40x40x5" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= FOOTER-1 END ==========================================-->
+    <!--================================= COPYRIGHT-1 START ==========================================-->
+    <footer class="copyright-bg">
+        <div class="container copyright text-center">
+            <p>2017 &copy; All Rights Reserved</p>
+        </div>
+    </footer>
+    <!--================================= COPYRIGHT-1 END ==========================================-->
+    <!-- JQUERY LIBRARY -->
+    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script type="text/javascript"
+            src="js/vendor/bootstrap.min.js"></script>
+    <!-- SLIDER JS FILES -->
+    <script type="text/javascript"
+            src="js/vendor/slider/owl.carousel.min.js"></script>
+    <script type="text/javascript"
+            src="js/vendor/slider/owl-slider.js"></script>
+    <!-- COUNTER JS FILES -->
+    <script type="text/javascript"
+            src="js/vendor/counter/counter-lib.js"></script>
+    <script type="text/javascript"
+            src="js/vendor/counter/jquery.counterup.min.js"></script>
+    <!-- MAGNIFIC LIGHT BOX -->
+    <script type="text/javascript"
+            src="js/vendor/magnific/jquery.magnific-popup.js"></script>
+    <!-- SUBSCRIBE MAILCHIMP -->
+    <script type="text/javascript"
+            src="js/vendor/subscribe/subscribe_validate.js"></script>
+    <!-- FORM VALIDATION -->
+    <script type="text/javascript"
+            src="js/vendor/validate/jquery.validate.min.js"></script>
+    <!-- SHUFFLE JS FILES -->
+    <script type="text/javascript"
+            src="js/vendor/shuffle/modernizr.custom.min.js"></script>
+    <script type="text/javascript"
+            src="js/vendor/shuffle/jquery.shuffle.js"></script>
+    <script type="text/javascript" src="js/vendor/shuffle/page.js"></script>
+    <script type="text/javascript"
+            src="js/vendor/shuffle/evenheights.js"></script>
+    <script type="text/javascript"
+            src="js/vendor/shuffle/homepage.js"></script>
+    <!-- NUMBER VALIDATION JS FILES -->
+    <script type="text/javascript" src="js/vendor/number.js"></script>
+    <!-- THEME JS -->
+    <script type="text/javascript" src="js/custom/custom.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script>
+        // Set Form Data
+        const heroEmail = document.querySelector(".hero-email");
+        const heroZip = document.querySelector(".hero-zip");
+        const heroWifi = document.querySelector(".hero-wifi");
+        const heroTablet = document.querySelector(".hero-tablet");
+        const heroHealthcare = document.querySelector(".hero-healthcare");
+        const heroUtilities = document.querySelector(".hero-utilities");
+
+        const formEmail = document.querySelector(".form-email");
+        const formZip = document.querySelector(".form-zip");
+        const formWifi = document.querySelector(".form-wifi");
+        const formTablet = document.querySelector(".form-tablet");
+        const formHealthcare = document.querySelector(".form-healthcare");
+        const formUtilities = document.querySelector(".form-utilities");
+
+        heroEmail.addEventListener("input", () => {
+            formEmail.value = heroEmail.value;
+        });
+
+        heroZip.addEventListener("input", () => {
+            formZip.value = heroZip.value;
+        });
+
+        heroWifi.addEventListener("change", () => {
+            formWifi.checked = heroWifi.value;
+        });
+
+        heroTablet.addEventListener("change", () => {
+            formTablet.checked = heroTablet.value;
+        });
+
+        heroHealthcare.addEventListener("change", () => {
+            formHealthcare.checked = heroHealthcare.value;
+        });
+
+        heroUtilities.addEventListener("change", () => {
+            formUtilities.checked = heroUtilities.value;
+        });
+
+        const terms = document.querySelector("#terms");
+        const termsValidator = document.querySelector("#terms-validator");
+
+        terms.addEventListener("change", () => {
+            if (terms.value) {
+                termsValidator.value = "true";
+        } else {
+            termsValidator.value = "";
+        }
+        });
+
+        // Loading
+        const loader = document.querySelector(".loading-container");
+
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 4000);
+
+        $(function () {
+            $("select").select2();
+        });
+
+        // Referral
+
+        const referralContainer = document.querySelector(
+            ".referral-container"
+            );
+
+        const referralInput = document.querySelector(
+            ".referral-container input"
+            );
+
+        const select = document.querySelector("#referral");
+
+        $("select").on("select2:select", function (e) {
+            if (select.value === "Other") {
+                referralInput.value = "";
+                referralContainer.classList.remove("hide");
+            } else {
+                referralInput.value = select.value;
+                referralContainer.classList.add("hide");
+            }
+        });
+
+        // Affiliate Show/Hide
+        const affiliateBtn = document.querySelector(".affiliate-btn");
+        const affiliateModal = document.querySelector(
+            ".affiliate-form-container"
+            );
+        const affiliateCloseBtn =
+        document.querySelector(".affiliate-close");
+
+        affiliateBtn.addEventListener("click", () => {
+            affiliateModal.classList.remove("hide");
+        document.body.classList.add("no-scroll");
+        });
+
+        affiliateCloseBtn.addEventListener("click", () => {
+            affiliateModal.classList.add("hide");
+        document.body.classList.remove("no-scroll");
+        });
+    </script>
+    <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+            {
+                pageLanguage: "en",
+                includedLanguages: "en,es",
+            },
+            "google_translate_element"
+            );
+        }
+    </script>
+</body>
+</html>
