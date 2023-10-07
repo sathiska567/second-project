@@ -1,7 +1,7 @@
-.school-body{
+.military-body{
 	padding: 120px 0;
 }
-.school-hero{
+.military-hero{
 	display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,13 +10,13 @@
 h2{
 	margin: 20px 0
 }
-.schools-location{
+.military-location{
 	padding: 50px 0;
 	background: #07a889;
 	box-sizing: border-box;
 	color: #fff;
 }
-.schools-location h2, .schools-location h4{
+.military-location h2, .military-location h4{
 	color: #fff
 }
 body img{
@@ -30,15 +30,15 @@ body img:hover{
 .list-map{
 	display: flex;
 }
-.schools-stats{
+.military-stats{
 	margin: 50px 0;
 }
 
-.schools-stats img{
+.military-stats img{
 	box-shadow: none;
 	width: 100%;
 }
-.schools-stats img:hover{
+.military-stats img:hover{
 	box-shadow: none;
 }
 .stats-icon{
@@ -50,36 +50,36 @@ body img:hover{
 	justify-content: center;
 	align-items: center;
 }
-.schools-location{
+.military-location{
 	padding: 150px 0;
 }
 
-.school-hero .img-hero{
+.military-hero .img-hero{
 	box-shadow: none;
 	width: 100%;
 }
-.school-hero .img-hero:hover{
+.military-hero .img-hero:hover{
 	box-shadow: none;
 }
 
-.school-hero{
+.military-hero{
 	margin-top: 50px;
 	margin-bottom: 100px; 
 }
-.schools-maps{
+.military-maps{
 	margin: 100px 0;
 }
 
-.schools-cell-phone{
+.military-cell-phone{
 	background: #fafafa;
 }
 
 @media only screen and (max-width: 600px){
-	.school-hero{
+	.military-hero{
 		flex-direction: column-reverse;
 		margin: 20px;
 	}
-	.school-hero img{
+	.military-hero img{
 		width: 80%;
 		margin: auto;
 	}
@@ -90,15 +90,15 @@ body img:hover{
 		text-align: center;
 		margin-top: 30px
 	}
-	.schools-location{
+	.military-location{
 		padding: 30px 0;
 	}
-	.schools-cell-phone>div{
+	.military-cell-phone>div{
 		flex-direction: column !important;
 		padding: 30px 0;
 	}
-	.schools-stats img{ width: 100%; }
-	.schools-maps>div{
+	.military-stats img{ width: 100%; }
+	.military-maps>div{
 				flex-direction: column-reverse !important;
 		padding: 30px 0;
 	}
