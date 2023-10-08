@@ -1,3 +1,7 @@
+body{
+	margin: 20px;
+}
+
 .military-body{
 	padding: 120px 0;
 }
@@ -136,6 +140,36 @@ code {
 	
 }
 
+@media screen and (max-width:400px){
+
+
+	.intro_div p{
+		/* font-size: 1rem; */
+		padding:0px 30px;
+	}
+
+	.estimate_div p{
+		padding:0px 30px;
+	}
+
+	.estimate_div h2{
+		font-size:0px 3rem;
+	}
+
+	.estimate_div ul{
+		padding: 0px 30px;
+	}
+
+	.qualification_div{
+		padding: 0px 30px;
+	}
+
+	.qualify_para{
+		padding: 0px 30px;
+	}
+	
+}
+
 
 
 @media only screen and (max-width: 600px){
@@ -175,5 +209,31 @@ code {
 	.margin-20{margin: 0px;}
 	.list-map{
 		flex-direction: column;
+	}
+
+
+	.intro_div p{
+		/* font-size: 1rem; */
+		padding:0px 30px;
+	}
+
+	.estimate_div p{
+		padding:0px 30px;
+	}
+
+	.estimate_div h2{
+		font-size:0px 3rem;
+	}
+
+	.estimate_div ul{
+		padding: 0px 30px;
+	}
+
+	.qualification_div{
+		padding: 0px 30px;
+	}
+
+	.qualify_para{
+		padding: 0px 30px;
 	}
 }
