@@ -131,6 +131,11 @@ code {
 
 @media screen and (min-width:1000px){
 
+	.menu{
+		margin-left: 0;
+		font-size: 1rem;
+	}
+
 	.img-hero{
 		height: 100vh;
 	}
@@ -140,6 +145,23 @@ code {
 	 }
 	
 }
+
+@media screen and (max-width:1000px){
+
+	.menu{
+		margin-left: 0;
+		font-size: 1rem;
+		padding: 0;
+		text-align: left;
+	
+	}
+
+	.menu a{
+		padding: 0;margin: 0;
+	}
+	
+}
+
 
 @media screen and (max-width:800px){
 
