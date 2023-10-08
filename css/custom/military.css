@@ -94,6 +94,20 @@ body img:hover{
 	
 }
 
+.estimate_div , 
+.img-fluid,
+.military-location
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 2%;
+	cursor: pointer;
+}
+
+.military-location:hover{
+	box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 
 code {
 	background-color: #D8F9E4;
@@ -103,11 +117,22 @@ code {
 
 }
 
+@media screen and (max-width:800px){
+
+	.img-hero{
+		height: 100vh;
+	}
+	
+}
+
+
+
 @media only screen and (max-width: 600px){
+	 
 	.military-hero{
 		text-align: center;
 		flex-direction: column-reverse;
-		margin: 20px;
+		/* margin: 20px; */
 	}
 	.military-hero img{
 		width: 80%;
@@ -136,7 +161,7 @@ code {
 		flex-direction: column;
 	}
 	.zero-padding{padding: 0 !important;}
-	.margin-20{margin: 20px;}
+	.margin-20{margin: 0px;}
 	.list-map{
 		flex-direction: column;
 	}
