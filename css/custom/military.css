@@ -63,7 +63,7 @@ body img:hover{
 
 .military-hero .img-hero{
 	box-shadow: none;
-	height: 120vh;
+	height: 80vh;
 	width: 100%;
 }
 .military-hero .img-hero:hover{
@@ -117,10 +117,18 @@ code {
 
 }
 
+@media screen and (min-width:1000px){
+
+	.img-hero{
+		height: 80vh;
+	}
+	
+}
+
 @media screen and (max-width:800px){
 
 	.img-hero{
-		height: 100vh;
+		height: 80vh;
 	}
 	
 }
