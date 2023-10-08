@@ -50,19 +50,29 @@ body img:hover{
 	justify-content: center;
 	align-items: center;
 }
+
+.military-location h2 {
+	color:black;
+}
+
 .military-location{
+	color:black;
+	background-color: #D8F9E4;
 	padding: 150px 0;
 }
 
 .military-hero .img-hero{
 	box-shadow: none;
+	height: 120vh;
 	width: 100%;
 }
 .military-hero .img-hero:hover{
 	box-shadow: none;
 }
 
+
 .military-hero{
+
 	margin-top: 50px;
 	margin-bottom: 100px; 
 }
@@ -74,8 +84,28 @@ body img:hover{
 	background: #fafafa;
 }
 
+.qualification-list {
+	margin-top: 3vh;
+}
+
+
+.military-Link {
+	margin-left: 22.5vh;
+	
+}
+
+
+code {
+	background-color: #D8F9E4;
+	font-weight: semi-bold;
+	color: red;
+	font-size: 1.0em;
+
+}
+
 @media only screen and (max-width: 600px){
 	.military-hero{
+		text-align: center;
 		flex-direction: column-reverse;
 		margin: 20px;
 	}
