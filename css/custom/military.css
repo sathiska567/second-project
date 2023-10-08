@@ -63,7 +63,7 @@ body img:hover{
 
 .military-hero .img-hero{
 	box-shadow: none;
-	height: 80vh;
+	height: 100vh;
 	width: 100%;
 }
 .military-hero .img-hero:hover{
@@ -74,7 +74,7 @@ body img:hover{
 .military-hero{
 
 	margin-top: 50px;
-	margin-bottom: 100px; 
+	margin-bottom: 0px; 
 }
 .military-maps{
 	margin: 100px 0;
@@ -107,6 +107,9 @@ body img:hover{
 	box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.intro_div h2{
+	margin-top: -10px;
+}
 
 
 code {
@@ -120,7 +123,7 @@ code {
 @media screen and (min-width:1000px){
 
 	.img-hero{
-		height: 80vh;
+		height: 100vh;
 	}
 	
 }
