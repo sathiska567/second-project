@@ -1,7 +1,3 @@
-body{
-	margin: 20px;
-}
-
 .military-body{
 	padding: 120px 0;
 }
@@ -9,6 +5,10 @@ body{
 	display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.qalification_percentage{
+	padding-right: 30px;
 }
 
 h2{
@@ -19,7 +19,9 @@ h2{
 	background: #07a889;
 	box-sizing: border-box;
 	color: #fff;
+	width: 100%;
 }
+
 .military-location h2, .military-location h4{
 	color: #fff
 }
@@ -88,8 +90,8 @@ body img:hover{
 	background: #fafafa;
 }
 
-.qualification-list {
-	margin-top: 3vh;
+.qualification-list li {
+	padding: 0px 30px;
 }
 
 
@@ -129,22 +131,7 @@ code {
 	width: 100%;
 }
 
-@media screen and (min-width:1000px){
 
-	.menu{
-		margin-left: 0;
-		font-size: 1rem;
-	}
-
-	.img-hero{
-		height: 100vh;
-	}
-
-	.list-group-item{
-		text-align: left;
-	 }
-	
-}
 
 @media screen and (max-width:1000px){
 
@@ -165,11 +152,53 @@ code {
 
 @media screen and (max-width:800px){
 
+	.qalification_percentage{
+		text-align: left;
+	}
+
+
 
 	.list-group-item{
 		text-align: left;
 	 }
+
+
+	 .intro_div p{
+		/* font-size: 1rem; */
+		padding:0px 30px;
+		text-align: left;
+	}
+
+	.estimate_div p{
+		padding:0px 30px;
+		text-align: left;
+	}
+
+	.estimate_div ul{
+		text-align: left;
+		padding: 0px 30px;
+	}
+
+	.qualification_div{
+		padding: 0px 30px;
+		text-align: left;
+	}
+
+	.qualify_para{
+		text-align: left;
+		padding: 0px 30px;
+	}
+
+	.list-group-item{
+		text-align: left;
+	 }
+
+	 h2{
+		padding: 0px 10px;
+		text-align: center;
+	 }
 	
+
 }
 
 
@@ -256,7 +285,7 @@ code {
 	.icon-heading{
 		flex-direction: column;
 	}
-	.zero-padding{padding: 0 !important;}
+	.zero-padding{padding: 0px 30px;}
 	.margin-20{margin: 0px;}
 	.list-map{
 		flex-direction: column;
